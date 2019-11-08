@@ -1,0 +1,267 @@
+/* ======================================= */
+/* ============  CSS Start  ============== */
+/* ======================================= */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Exo', sans-serif;
+}
+h5{
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+.highlight{
+  color: #ff6d6d;
+}
+h2{
+  font-size: 40px;
+  color: #282828;
+}
+ul li{
+  list-style: none;
+}
+
+
+/* ======================================= */
+/* ==========  Header Section  =========== */
+header{
+  background: url(../img/banner-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+}
+header h1{
+  margin-top: 60px;
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 0 15%;
+}
+header img{
+  display: block;
+  margin: 45px auto;
+}
+header img:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+header .btn-header{
+  background: #ff6d6d;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  border: none;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 45px;
+}
+header .btn-header:hover{
+  background: #ff5c5c;
+}
+header p{}
+
+/* ======================================= */
+/* ==========  Design Section  =========== */
+
+.design-area{}
+.design-area .design-left{
+  padding: 40px 0;
+  padding-left: 10%;
+}
+.design-area h5{}
+.design-area h2{
+  margin: 10px 0 50px;
+}
+
+.design-area p{
+  line-height: 1.8;
+}
+.design-area .para1{
+  margin-bottom: 40px;
+}
+.design-area .img-girl{
+  padding-left: 20px;
+}
+
+/* ======================================= */
+/* ==========  Feature Section  ========== */
+
+.feature-area{
+  background: url(../img/feature-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.feature-area .card{
+  margin-top: 60px;
+  background: transparent;
+  border: 0;
+}
+.feature-area img{
+  width: 30%;
+  margin: 30px auto 15px;;
+}
+.feature-area .card-body{
+  text-align: center;
+}
+.feature-area .card-title{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.feature-area .card-text{
+  line-height: 1.5;
+}
+
+/* ======================================= */
+/* ==========  MacBook Section  ========== */
+
+.macbook-area{
+  background: url(../img/macbook-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+}
+.macbook-area h2{
+  margin: 20px 0 50px;
+}
+.macbook-area p{
+  line-height: 1.8;
+}
+
+/* ======================================= */
+/* ==========  Clients Section  ========== */
+
+.client-area{
+  background: url(../img/client-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+}
+.client-area .card{
+  background: transparent;
+  border: 0;
+}
+.client-area img{
+  width: 24%;
+  margin: 30px auto 0;
+}
+.client-area .card h4{
+  color: #eee;
+}
+.client-area .card h6{
+  color: #ff6d6d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.client-area .card-body{
+  text-align: center;
+}
+.client-area .card p{
+  color: #b3b3b5;
+}
+.client-area .card-title{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.client-area .card-text{
+  line-height: 1.5;
+}
+.client-area .logo-row{
+  margin-top: 60px;
+}
+.client-area .logo-row img{
+  height: 50%;
+  width: 50%;
+}
+
+
+/* ======================================= */
+/* ========  New feature Section  ======== */
+
+.new-feature{
+  background: #f6f5f3;
+  padding-top: 80px;
+}
+.new-feature p{
+  margin: 40px 0 100px;
+  padding: 0 18%;
+}
+
+/* ======================================= */
+/* ==========  Try Now Section  ========== */
+
+.try-now{
+  background: #323969;
+  padding: 80px 0;
+}
+.try-now h2{
+  color: #eee;
+  margin-bottom: 60px;
+}
+.try-now .arrow-text{
+  color: #fff;
+}
+.try-now .arrow-text p{
+  display: inline-block;
+}
+.try-now .farrow{
+  padding-right: 10px;
+  font-size: 20px;
+}
+.try-now form .form-control{
+  height: 45px;
+}
+.try-now .btn-try{
+  padding: 10px 0;
+  background: #ff6d6d;
+  border: 0;
+}
+.try-now .btn-try:hover{
+  background: #ff3a3a;
+}
+.try-now .terms , .terms a{
+  color: #a8aabc;
+  margin-top: 50px;
+}
+
+/* ======================================= */
+/* ==========  Footer Section  =========== */
+
+footer{
+  background: url(../img/footer-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+footer form .input-group-text{
+  background: #ff6d6d;
+  border: 5px solid #ff6d6d;
+}
+footer form .fa-paper-plane-o{
+  color: #fff;
+}
+footer .form-inline input{}
+footer .link-list{
+  margin-top: 20px;
+}
+footer .link-list li{
+  display: inline;
+  margin-right: 10px;
+}
+footer .link-list i{
+  color: #777;
+  font-size: 20px;
+  transition: 0.4s;
+}
+footer .link-list i:hover{
+  transform: rotate(360deg);
+}
+
+
+
+
+
+....
